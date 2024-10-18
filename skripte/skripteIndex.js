@@ -1,28 +1,28 @@
-// JavaScript to check email and password on submit
+// JavaScript preveri mail in password na submit
     function preveriVnose(event) {
-      // The correct password and email stored in the object
+      // prava mail in password v objektu
       const upoPodatki = {
         pravoGeslo: 'Password123?',
         praviMail: 'Janez.Jansa@hotmail.com'
       };
 
-      // Get the value from the password and email input fields
+      // uzemi vnose iz polj
       const vnesenoGeslo = document.getElementById('passGeslo').value;
       const vnesenMail = document.getElementById('passMail').value;
 
-      // Check if the entered password and email match the stored values
+      // preveri ce se mail in password ujemata objektom
       if (vnesenoGeslo !== upoPodatki.pravoGeslo || vnesenMail !== upoPodatki.praviMail) {
-        // If either the email or password doesn't match, alert the user and prevent form submission
+        // ce email in geslo nista enaka opozori preko alerta
         event.preventDefault();
         alert('Email ali geslo se ne ujemata!');
       } else {
-        // Both email and password match, allow form submission
+        // email in geslo se ujemata, vrzi na formo
         alert('Prijava uspešna!');
         document.querySelector('form').action = 'strani/forma.html';
       }
     }
 
-    // das funkcijo na 
+    // das funkcijo na gumb prijava
     window.onload = function () {
       document.getElementById('prijava').addEventListener('click', preveriVnose);
     };
