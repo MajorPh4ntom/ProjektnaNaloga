@@ -20,6 +20,7 @@
 	html, body {
 		width: 100%;
 		height: 100%;
+		transition: 0.3s;
 		position: absolute;
 	}
 
@@ -139,6 +140,7 @@
 		width: 100%;
 		height: 100%;
 		position: static;
+		transition: 0.3s;
 	}
 
 	h1 {
@@ -256,6 +258,129 @@
 	html, body {
 		width: 100%;
 		height: 100%;
+		transition: 0.3s;
+		position: static;
+	}
+
+	h1 {
+		color: black;
+		font-family: NaslovnicaVsebina;
+		font-weight: bold;
+		justify-content: center;
+		display: flex;
+		font-size: 25px;
+		margin-bottom: 0.3em;
+		text-align: center;
+		user-select: none;
+	}
+
+	label {
+		user-select: none;
+	}
+
+	input[type=email], input[type=password] {
+		padding: 1%;
+		text-align: center;
+		font-weight: bold;
+		font-family: Vsebina2;
+	}
+
+	.okvir {
+		background: #ffe7e7;
+		border: solid #ff7575 5px;
+		border-radius: 25px;
+		margin: auto;
+		margin-top: 3.5%;
+		margin-bottom: 3.5%;
+		width: 15em;
+		height: 17em;
+		padding: 1em;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	#dimenzijeMail {
+		width: 10em;
+		margin: auto auto;
+	}
+
+	.naziviVnosov {
+		font-size: 18px;
+		font-family: NaslovnicaVsebina;
+		display: flex;
+		justify-content: center;
+		font-weight: bold;
+		padding-top: 10px;
+	}
+
+	.centeriranjeDiv {
+		width: 20em;
+		height: 3em;
+		border: solid #ff7575 3px;
+		border-radius: 10px;
+		margin: 0.1em auto 0.5em auto;
+		display: flex;
+		background: #ffc7ae;
+		box-sizing: border-box;
+		font-size: 7px;
+	}
+
+	#mailPassowrdDiv {
+		margin-top: 2em;
+		margin-bottom: 0.2em;
+	}
+
+	#prijava {
+		width: 80px;
+		height: 20px;
+		font-size: 8px
+	}
+
+	#ustvariRacun {
+		width: 80px;
+		height: 20px;
+		font-size: 8px;
+	}
+
+	.gumb a{
+		text-decoration: none;
+		color: black;
+	}
+
+	.gumb {
+		transition: 0.3s;
+		background: #ffc7ae;
+		border: solid #ff7575 4px;
+		border-radius: 10px;
+		cursor: pointer;
+		text-decoration: none;
+		font-family: Vsebina2;
+		color: #333333;
+	}
+
+	.gumb:hover {
+		transition: 0.3s;
+		background: #ff9f75;
+		font-weight: bold;
+		color: black;
+	}
+
+	.gumbiPremik {
+		display: inline;
+	}
+
+	.gumbiPremik2 {
+		display: inline;
+		margin-left: 20px;
+	}
+}
+
+@media(max-width: 2860px max-height:1310px){ /*velikost za na telefon*/
+	html, body {
+		width: 100%;
+		height: 100%;
+		transition: 0.3s;
 		position: static;
 	}
 
