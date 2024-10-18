@@ -24,7 +24,7 @@
 		position: absolute;
 	}
 
-	h1 {
+	#naslov {
 		color: black;
 		font-family: NaslovnicaVsebina;
 		font-weight: bold;
@@ -151,7 +151,7 @@
 		transition: 0.3s;
 	}
 
-	h1 {
+	#naslov {
 		color: black;
 		font-family: NaslovnicaVsebina;
 		font-weight: bold;
@@ -277,7 +277,7 @@
 		position: static;
 	}
 
-	h1 {
+	#naslov {
 		color: black;
 		font-family: NaslovnicaVsebina;
 		font-weight: bold;
