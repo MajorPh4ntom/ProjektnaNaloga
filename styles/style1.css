@@ -100,7 +100,7 @@
 		width: 120px;
 		height: 30px;
 		user-select: none;
-		cursor: no-drop;
+		cursor: not-allowed;
 	}
 
 	#ustvariRacun:hover {
@@ -228,9 +228,7 @@
 		width: 120px;
 		height: 30px;
 		user-select: none;
-		cursor: no-drop;
-		transition: 0.3s !important;
-		opacity: 0.5 !important;
+		cursor: not-allowed;
 	}
 
 	#ustvariRacun:hover {
@@ -359,7 +357,7 @@
 		height: 20px;
 		font-size: 8px;
 		user-select: none;
-		cursor: no-drop;
+		cursor: not-allowed;
 	}
 
 	#ustvariRacun:hover {
@@ -375,7 +373,7 @@
 	.gumb {
 		transition: 0.3s;
 		background: #ffc7ae;
-		border: solid #ff7575 4px;
+		border: solid #ff7575 3px;
 		border-radius: 10px;
 		cursor: pointer;
 		text-decoration: none;
