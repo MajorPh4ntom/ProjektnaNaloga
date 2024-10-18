@@ -98,7 +98,15 @@
 
 	#ustvariRacun {
 		width: 120px;
-		height: 30px;	}
+		height: 30px;
+		user-select: none;
+		cursor: no-drop;
+	}
+
+	#ustvariRacun:hover {
+		transition: 0.3s !important;
+		opacity: 0.5 !important;
+	}
 
 	.gumb a{
 		text-decoration: none;
@@ -219,6 +227,15 @@
 	#ustvariRacun {
 		width: 120px;
 		height: 30px;
+		user-select: none;
+		cursor: no-drop;
+		transition: 0.3s !important;
+		opacity: 0.5 !important;
+	}
+
+	#ustvariRacun:hover {
+		transition: 0.3s !important;
+		opacity: 0.5 !important;
 	}
 
 	.gumb a{
@@ -341,6 +358,13 @@
 		width: 80px;
 		height: 20px;
 		font-size: 8px;
+		user-select: none;
+		cursor: no-drop;
+	}
+
+	#ustvariRacun:hover {
+		transition: 0.3s !important;
+		opacity: 0.5 !important;
 	}
 
 	.gumb a{
