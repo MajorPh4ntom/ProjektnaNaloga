@@ -15,6 +15,10 @@
 	font-family: Vsebina2;
 	src: url(../fonts/Krub/Krub-Medium.ttf);
 }
+@font-face {
+	font-family: Vsebina3;
+	src: url(../fonts/Roboto_Condensed/RobotoCondensed-VariableFont_wght.ttf);
+}
 
 @media(max-width: 18000px){
 	html, body {
@@ -67,11 +71,10 @@
 	}
 
 	.naziviVnosov {
-		font-size: 30px;
-		font-family: NaslovnicaVsebina;
+		font-size: 23px;
+		font-family: Vsebina3;
 		display: flex;
 		justify-content: center;
-		font-weight: bold;
 	}
 
 	.centeriranjeDiv {
