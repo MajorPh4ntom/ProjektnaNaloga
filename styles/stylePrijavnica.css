@@ -8,6 +8,10 @@
 	src: url(../fonts/Amatic_SC,Yatra_One/Amatic_SC/AmaticSC-Bold.ttf);
 }
 @font-face {
+	font-family: NaslovnicaVsebinaBold;
+	src: url(../fonts/Amatic_SC,Yatra_One/Amatic_SC/AmaticSC-Regular.ttf);
+}
+@font-face {
 	font-family: Vsebina;
 	src: url(../fonts/Roboto_Condensed/RobotoCondensed-VariableFont_wght.ttf);
 }
@@ -23,7 +27,117 @@
 		position: static;
 	}
 
-	
+	.okvir {
+		background: #ffe7e7;
+		border: solid #ff7575 10px;		
+		border-radius: 25px;
+		margin: auto;
+		margin-top: 7.5%;
+		margin-bottom: 7.5%;
+		width: 50%;
+		height: 70%;
+		padding: 1em;
+		display: flex;
+		justify-content: center;
+
+	}
+
+	.splosnaOblikaVpisnice {
+		font-family: NaslovnicaVsebinaBold;
+		font-weight: bold;
+		font-size: 30px;
+	}
+
+	.noga {
+		background: #ffe7e7;
+		border-top: solid #ff7575 10px;
+		width: 100%;
+		height: 350px;
+		display: flex;
+	}
+
+	#resizeDela{
+		margin: 0 auto;
+		display: flex;
+	}
+
+		/*DIVI v znacki noga*/
+
+	.premikInfo {
+		display: flex;
+		flex-direction: column;
+		margin: auto 50px;
+		margin-top: 95px;
+		margin-left: 250px;
+		font-family: Vsebina;
+	}
+
+	.premikOpis {
+		display: flex;
+		flex-direction: column;
+		margin: auto 50px;
+		margin-left: 200px;
+		font-family: Vsebina;
+	}
+
+	.premikSocials {
+		display: flex;
+		flex-direction: column;
+		margin: auto 50px;
+		margin-top: 95px;
+		margin-left: 150px;
+		font-family: Vsebina;
+	}
+
+		/*unirvezalna znacka za nasloe v nogi*/
+
+	#naslov {
+		font-family: Vsebina !important;
+		font-weight: bold;
+		font-size: 25px;
+		margin-bottom: 25px;
+	}
+
+		/*znacke za v divu premikInfo*/
+
+	.tel {
+		margin-bottom: 10px;
+	}
+
+	#mailLink {
+		text-decoration: none;
+	}
+
+		/*znacke za v divu premikOpis*/
+
+	#opis {
+		width: 300px;
+	}
+
+		/*znacke za v divu premikSocials*/
+
+	#ikoneLinki {
+		display: inline;
+	}
+
+	#zemljevid {
+		border: solid #ff7575 5px;
+		border-radius: 25px;
+		margin: 20px 0 20px -50px;
+		width: 400px;
+		height: 300px;
+	}
+
+	.pravice {
+		height: 50px;
+		background: #ff7575;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-family: Vsebina;
+		font-size: 18px;
+		user-select: none;
+	}
 
 }
 
